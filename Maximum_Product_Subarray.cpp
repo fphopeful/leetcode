@@ -1,3 +1,12 @@
+/*
+ * Problem 152:	Maximum Product Subarray  
+ *
+ * Find the contiguous subarray within an array (containing at least one number) which has the largest product.
+ *
+ * For example, given the array [2,3,-2,4],
+ * the contiguous subarray [2,3] has the largest product = 6.
+ */
+
 /* 经典的做法是动态规划，在后面也会给出这种方法的代码和思路 */
 /* 下面是我的另一种思路，也只需要对数组进行一次扫描即可 */
 /* 我的这种解法，时间复杂度起码不输于动态规划，在leetcode上提交甚至会比动归块，没有具体分析过 */
