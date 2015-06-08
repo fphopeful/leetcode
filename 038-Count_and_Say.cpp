@@ -52,3 +52,9 @@ public:
 		return after_count;
 	}
 };
+
+/*
+ * 有待改进之处，string s可以直接使用:
+ * s.push_back(ch)，将ch追加到string的尾部；
+ * s.size()与s.length()更好，因为在vector之类的容器中也可以使用size();
+ */
