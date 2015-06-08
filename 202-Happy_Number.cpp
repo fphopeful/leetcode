@@ -53,3 +53,8 @@ public:
         }
     }
 };
+
+//set用法
+//set和map的不同在于,它只是键的集合.键不能重复,且不能修改,是const.但是set不提供下标操作符
+//插入使用set.insert(key)
+//可以使用set.find(key)返回迭代器,如果找不到返回set.end().来查找,或者set.count(key)返回true(该元素存在),false(不存在).
