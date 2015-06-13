@@ -74,6 +74,13 @@ public:
 /*
  * string用法：tokens[i].compare("*")，对比tokens[i]与"*",相同返回0，不同返回1；
  * stringstream用法：
+ * 使用需要包含头文件<sstream>
  * 复用一个stringstream对象ss，则在使用之前需要执行ss.clear(); ss.str("");
  * 注意string转换为int，int转换为string的用法。
+ */
+/*
+ * string转换到int，还可以使用stoi即可（在头文件<string>中）。
+ */
+/*
+ * switch .. case语法中，case必须是常量。
  */
